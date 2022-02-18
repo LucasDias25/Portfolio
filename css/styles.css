@@ -113,17 +113,27 @@ body {
 	letter-spacing: 2px;
 }
 
+.curriculo {
+	margin-bottom: -20px;
+}
 
 .cv-pic {
-	float: left;
+	float: right;
 	width: 250px;
-	margin-right: 20px;
+	margin-right: 0px;
 	margin-bottom: 20px;
 }
 
+.icon-soft {
+	width: 380px;
+}
+
+.icon-hard {
+	width: 500px;
+}
 
 .main {
-	padding: 60px 180px 60px 100px;
+	padding: 60px 150px 60px 100px;
 
 	animation-name: surge-esquerda;
 	animation-duration: 1s;
@@ -210,7 +220,7 @@ body {
 }
 
 .blackbox:hover {
-	opacity: 0.85;
+	opacity: 0.8;
 
 	transition: 0.5s;
 }
@@ -224,7 +234,7 @@ body {
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 600;
-	color: #ff5690;
+	color: #ff387d;
 	text-transform: uppercase;
 	margin-top: 0px;
 }
@@ -386,6 +396,12 @@ body {
 	max-width: 100%;
 	margin-right: 2%;
 	margin-bottom: 2%;
+	text-align: left;
+}
+
+
+.icon-hard, .icon-soft {
+	max-width: 90%;
 }
 
 
