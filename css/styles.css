@@ -9,6 +9,7 @@ html, body {
 body {
 	background-color: #2b2b2b;
 	font-family: "Montserrat", arial;
+	background-image: linear-gradient(#2b2b2b,#2b2b2b,#3d2d33);
 }
 
 
@@ -70,9 +71,8 @@ body {
 
 .capa div {
 	display: inline-block; 
-	height: 500px;
+	height: 560px;
 }
-
 
 .profile-pic {
 	width: 40%;
@@ -189,7 +189,8 @@ body {
 
 .social-img {
 	width: 50px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	margin-top: 10px;
 	margin-right: 10px;
 }
 
@@ -287,6 +288,11 @@ body {
 }
 
 
+#mail-1, #mail-2 {
+	text-decoration: none;
+	font-style: normal;
+	color: rgb(253, 253, 253);
+}
 
 
 
@@ -319,9 +325,8 @@ body {
 
 
 
-
-@media only screen and (min-resolution:200dpi), only screen and (min-resolution: 1.25dppx), only screen and (max-width: 950px) {
-
+@media only screen and (min-resolution: 1.25dppx), only screen and (max-width: 950px) { 
+ 
 
 .navigation li {
 	display: none;
@@ -329,6 +334,7 @@ body {
 
 .navigation li.threeline-icon {
 	display: inline-block;
+	width: auto;
 }
 
 
@@ -346,7 +352,7 @@ body {
 .profile-pic img {
 	margin-top: 20px;
 	margin-left: 0;
-	max-width: 80%;
+	max-width: 90%;
 }
 
 .profile-title {
@@ -378,10 +384,6 @@ body {
 	word-wrap: break-word;
 }
 
-.main h2 {
-	margin-top: 10px;
-} 
-
 .main p {
 	text-align: left;
 	line-height: 30px;
@@ -403,7 +405,8 @@ body {
 
 
 .icon-hard, .icon-soft {
-	max-width: 90%;
+	max-width: 100%;
+	height: auto;
 }
 
 
@@ -432,10 +435,10 @@ body {
 
 .menujs li {
 	display: block;
-	border-bottom: solid gray 1px;
-	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
+	border-bottom: solid rgb(173, 156, 163) 1px;
+	border-radius: 10%;
+	width: auto;
 }
+
 
 }
